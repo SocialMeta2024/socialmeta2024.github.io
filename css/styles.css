@@ -150,6 +150,12 @@ a {
   text-decoration: underline;
 }
 
+.ieee1 {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .ieee:hover {
   color: var(--text-color-light);
   text-decoration: underline;
