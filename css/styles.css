@@ -354,14 +354,14 @@ img {
 
 .home__title {
   text-align: center;
-  font-size: var(--big-font-size);
-  color: #fff;
+  font-size: 3rem;
+  color: #000000;
   padding-top: 170px;
 }
 
 .home__description {
-  font-size: var(--h3-font-size);
-  color: #fff;
+  font-size: 1.5rem;
+  color: #000000;
   text-align: center;
   padding-top: 10px;
   font-weight: var(--font-medium);
@@ -369,8 +369,8 @@ img {
 }
 
 .home__date_place {
-  font-size: var(--h3-font-size);
-  color: #fff;
+  font-size: 1.5rem;
+  color: #000000;
   text-align: center;
   padding-top: 5px;
   font-weight: var(--font-medium);
@@ -775,14 +775,14 @@ img {
 
   .home__title {
     text-align: center;
-    font-size: var(--big-font-size);
-    color: #fff;
+    font-size: 3rem;
+    color: #000000;
     padding-top: 40px;
   }
 
   .home__description {
-    font-size: var(--h3-font-size);
-    color: #fff;
+    font-size: 1.5rem;
+    color: #000000;
     text-align: center;
     padding-top: 10px;
     font-weight: var(--font-medium);
@@ -790,8 +790,8 @@ img {
   }
 
   .home__date_place {
-    font-size: var(--h3-font-size);
-    color: #fff;
+    font-size: 1.5rem;
+    color: #000000;
     text-align: center;
     padding-top: 5px;
     font-weight: var(--font-medium);
@@ -1000,17 +1000,17 @@ img {
   .section {
     padding: 6rem;
   }
-
+/* 真正页面显示home内容格式*/
   .home__title {
     text-align: center;
-    font-size: var(--big-big-big-font-size);
-    color: #fff;
+    font-size:4rem;
+    color: #000000;
     padding-top: 170px;
   }
 
   .home__description {
-    font-size: var(--h3-font-size);
-    color: #fff;
+    font-size: 1.5rem;
+    color: #000000;
     text-align: center;
     padding-top: 10px;
     font-weight: var(--font-medium);
@@ -1018,8 +1018,8 @@ img {
   }
 
   .home__date_place {
-    font-size: var(--h3-font-size);
-    color: #fff;
+    font-size: 1.5rem;
+    color: #000000;
     text-align: center;
     padding-top: 5px;
     font-weight: var(--font-medium);
