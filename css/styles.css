@@ -858,12 +858,6 @@ img {
     font-weight: 700;
   }
 
-#home {
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-    }
-
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -877,6 +871,7 @@ img {
         justify-self: center;
     } */
 }
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -1044,7 +1039,7 @@ img {
     text-align: center;
     font-size:3rem;
     color: #fff;
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .home__description {
@@ -1066,7 +1061,7 @@ img {
 
   .submit-btn {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
   }
 
   .submit-btn a {
