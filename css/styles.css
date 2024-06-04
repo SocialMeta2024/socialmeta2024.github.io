@@ -62,13 +62,14 @@
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: ;
-    --h1-font-size: ;
-    --h2-font-size: ;
-    --h3-font-size: ;
-    --normal-font-size: ;
-    --small-font-size: ;
-    --smaller-font-size: ;
+    --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --smallerer-font-size: 0.5rem;
   }
 
 }
@@ -151,7 +152,7 @@ a {
 }
 
 .ieee1 {
-  color: blue;
+  color: yellow;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -328,12 +329,20 @@ img {
 
 /* Home */
 
-#home {
+/*#home {
   background: url(../imgs/Hangzhou.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 55vh;
+} */
+
+#home {
+  background: url(../imgs/Hangzhou.jpg) no-repeat center center;
+  background-size: contain;
+  background-position: center;
+  height: 55vh;
 }
+
 
 .home__container {
   gap: 1rem;
@@ -361,13 +370,13 @@ img {
 .home__title {
   text-align: center;
   font-size: 3rem;
-  color: #000000;
+  color: #fff;
   padding-top: 170px;
 }
 
 .home__description {
   font-size: 1.5rem;
-  color: #000000;
+  color: #fff;
   text-align: center;
   padding-top: 10px;
   font-weight: var(--font-medium);
@@ -376,7 +385,7 @@ img {
 
 .home__date_place {
   font-size: 1.5rem;
-  color: #000000;
+  color: #fff;
   text-align: center;
   padding-top: 5px;
   font-weight: var(--font-medium);
@@ -452,6 +461,11 @@ img {
   display: inline-flex;
   align-items: center;
 }
+
+.welcome_to_socialmeta{
+ font-size: 2rem
+}
+
 
 .callforpapers__description {
   margin-bottom: var(--mb-0-5);
@@ -764,7 +778,7 @@ img {
     } */
 
   .section {
-    padding: 2rem;
+  padding: 6rem;
   }
 
   /* .nav__menu{
@@ -782,13 +796,13 @@ img {
   .home__title {
     text-align: center;
     font-size: 3rem;
-    color: #000000;
-    padding-top: 40px;
+    color: #fff;
+    padding-top: 80px;
   }
 
   .home__description {
     font-size: 1.5rem;
-    color: #000000;
+    color: #fff;
     text-align: center;
     padding-top: 10px;
     font-weight: var(--font-medium);
@@ -797,7 +811,7 @@ img {
 
   .home__date_place {
     font-size: 1.5rem;
-    color: #000000;
+    color: #fff;
     text-align: center;
     padding-top: 5px;
     font-weight: var(--font-medium);
@@ -821,6 +835,11 @@ img {
     z-index: 1;
     transition: color 0.5s;
   }
+
+    #home {
+        height: 55vh;
+        padding: 2rem;
+    }
 }
 
 /* For medium devices */
@@ -837,6 +856,11 @@ img {
     font-size: 26px;
     font-weight: 700;
   }
+
+#home {
+        height: 55vh;
+        padding: 2rem;
+    }
 
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
@@ -870,6 +894,12 @@ img {
     font-size: 36px;
     font-weight: 700;
   }
+
+#home {
+        height: 55vh;
+        padding: 2rem;
+    }
+
 
   body {
     margin: 0;
@@ -1006,17 +1036,17 @@ img {
   .section {
     padding: 6rem;
   }
-/* 真正页面显示home内容格式*/
+/* 高分辨率home内容格式*/
   .home__title {
     text-align: center;
-    font-size:4rem;
-    color: #000000;
-    padding-top: 170px;
+    font-size:3rem;
+    color: #fff;
+    padding-top: 120px;
   }
 
   .home__description {
-    font-size: 1.5rem;
-    color: #000000;
+    font-size: 0.9rem;
+    color: #fff;
     text-align: center;
     padding-top: 10px;
     font-weight: var(--font-medium);
@@ -1024,8 +1054,8 @@ img {
   }
 
   .home__date_place {
-    font-size: 1.5rem;
-    color: #000000;
+    font-size: 1rem;
+    color: #fff;
     text-align: center;
     padding-top: 5px;
     font-weight: var(--font-medium);
@@ -1033,7 +1063,7 @@ img {
 
   .submit-btn {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   .submit-btn a {
