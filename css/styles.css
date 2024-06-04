@@ -778,7 +778,7 @@ img {
     } */
 
   .section {
-  padding: 6rem;
+  padding: 2rem;
   }
 
   /* .nav__menu{
@@ -795,13 +795,13 @@ img {
 
   .home__title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   .home__description {
-    font-size: 1.5rem;
+    font-size: 1 rem;
     color: #fff;
     text-align: center;
     padding-top: 10px;
@@ -810,7 +810,7 @@ img {
   }
 
   .home__date_place {
-    font-size: 1.5rem;
+    font-size: 1 rem;
     color: #fff;
     text-align: center;
     padding-top: 5px;
