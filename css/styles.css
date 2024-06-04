@@ -837,8 +837,9 @@ img {
   }
 
     #home {
-        height: 55vh;
-        padding: 2rem;
+         background-size: cover;
+  background-position: center;
+  height: 100vh;
     }
 }
 
@@ -858,8 +859,9 @@ img {
   }
 
 #home {
-        height: 55vh;
-        padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
     }
 
   .home__content {
@@ -896,8 +898,10 @@ img {
   }
 
 #home {
-        height: 55vh;
-        padding: 2rem;
+        background-size: contain;
+  background-position: center;
+  height: 55vh;
+
     }
 
 
@@ -1036,12 +1040,11 @@ img {
   .section {
     padding: 6rem;
   }
-/* 高分辨率home内容格式*/
   .home__title {
     text-align: center;
     font-size:3rem;
     color: #fff;
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   .home__description {
