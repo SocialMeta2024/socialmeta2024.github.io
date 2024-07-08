@@ -479,6 +479,23 @@ img {
   margin-left: 15px;
 }
 
+/* 左右分列格式*/
+.date_container {
+    display: flex;
+}
+.left-column {
+    flex: 1;
+    font-weight: bold;
+    text-align:left; /* 使左列文字右对齐 */
+    padding-right: 10px; /* 添加右侧填充以分隔两列 */
+}
+.right-column {
+    flex: 1;
+    text-align: left; /* 使右列文字左对齐 */
+    padding-left: 10px; /* 添加左侧填充以分隔两列 */
+}
+
+
 .submission__date {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
@@ -855,7 +872,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 700;
   }
 
