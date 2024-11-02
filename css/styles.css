@@ -1234,7 +1234,7 @@ border-radius: 0;
     }
 
 .logo .logo-top1 img {
-    width: 80%;      /* 将图片宽度设置为 80% */
+    width: 90%;      /* 将图片宽度设置为 80% */
     max-width: 100%; /* 确保图片不会超出容器 */
     height: auto;    /* 自动调整高度，保持比例 */
     display: block;  /* 将图片设置为块级元素 */
